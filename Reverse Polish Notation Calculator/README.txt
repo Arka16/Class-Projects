@@ -1,7 +1,20 @@
-Arka Pal
+Reverse Polish Notation Calculator: C
 
-The most important aspects of this lab were to get familiar with manipulating stacks, knowing how to use structs, and using string tokenization to parse and process strings. In this lab, I first make a stack structure and wrote stack functions that made use of the stack stuct. I then made a reverse Polish notation method, which takes a string in run notation and performs the respective operations/returns the respective errors, with the help of the stack functions. Next, I wrote a backspace processing method which takes cares of any backspace the user inputs on a string. Finally, I made the main function of the lab which prints messages and displays output of the user input. 
+Description: Calculator that takes user input in reverse polish notation(rpn) and evaluates it to a single number, processes backspaces, and handles invalid syntax; uses stack data structure, pointers/referencing
 
-In order to do this lab, I first read the whole manual to see what my overall tasks was. I then broken the lab up to three parts: stack.c, rpn.c, and lab_main4.c, and worked on one file at a time in the respective order. When working on each .c file, I did the test harness for the respective file side by side, which helped me debug easier. I tried to add at least 10 test cases for rpn.c since there were many possible edge case for it. Things that went wrong were that I was having a hard time writing the backspace method, and returning the appropriate error in rpn evaluate. I fixed these by writing/tracing my test cases by hand, and modifying my code accordingly. Things that went well are writing all the stack functions, since I am familiar of how the stack behaves due to prior experience of CSE12. If I were to do this lab again, I would probably approach it the same way since my method of approaching the lab was successful for the most part. One thing that was unhelpful about the lab was that there were not any edge test cases provided, which led me to guess the return values of potential test cases. 
+Important Files: 
 
-I think my lab was successful. I spent around 20 hours on this lab. Some things I like ant this lab were that it made me more familiar with string tokenization and structures. I disliked that there were multiple edges to handle, and I was frustated due to the fact I had to keep modifying my code to pass edge cases. 1 suggestion I have for this lab is providing more edge cases in the student manual, since this lab had many possible test cases. The hardest part of the test case was Backspace, since it took me a while to come up with a pattern for it. I think the point distribution is fair. The lab manual is a good start for the lab, but I wish that we were provided with more test cases/examples for the lab. Overall, this lab was helpful enhancing my knowledge in C concepts and would help me for future labs/programming assignments. 
+rpn.c: rpn calculator functionality
+
+Lab04_main.c: user interface/asks for user input and returns evaluates result and handles all possible errors of input
+
+stack.c: contains stack data structure functionality/helper functions for rpn.c
+
+
+
+Test Harnesses:
+
+rpn_test.c
+
+stack_test.c
+

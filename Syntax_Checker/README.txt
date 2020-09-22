@@ -1,15 +1,7 @@
-Arka Pal
-arpal
-Winter 2020
-Lab 4: Syntax Checker
+Syntax Checker(Mips 32 Assembly)
 
 ---------
-DESCRIPTION
-
-In this lab, the user enters a file as an input using a program argument. The Program prints the name of the file the user has entered and checks if the file name is valid.
-The program prints an invalid error and closes the program if the file name is invalid or opens and reads the file if the file name is valid. When the program reads the file, the 
-Program either prints a success match where it outputs the number of matching braces, a 
-brace mismatch error printing mismatched braces and their indices if an opening brace doesn't correspond to it's closing brace/closing brace with no opening brace, or a Stack error with a list of opening braces in reverse with no closing brace. 
+Description: In this lab, the user enters a file as an input using a program argument. The program prints the name of the file the user has entered and checks if the file name is valid. The program prints an invalid error and closes the program if the file name is invalid or opens and reads the file if the file name is valid. When the program reads the file, the Program either prints a success match where it outputs the number of matching braces, a brace mismatch error printing mismatched braces and their indices if an opening brace doesn't correspond to it's closing brace/closing brace with no opening brace, or a Stack error with a list of opening braces in reverse with no closing brace. 
 closing braces. 
   
 
@@ -22,17 +14,6 @@ Lab4.lgi
 
 This file includes the assembly code of the lab. 
 
-test1.txt
-
-This file includes a test case for the lab.
-
-test2.txt
-
-This file includes a test case for the lab.
-
-test3.txt
-
-This file includes a test case for the lab.
 
 
 ------------
